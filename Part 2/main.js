@@ -29,7 +29,7 @@ addBtn.addEventListener("click", function (e) {
   doneBtn.classList.add("done");
 
   doneBtn.addEventListener("click", function (e) {
-    text.classList.add("completed");
+    text.classList.add("completed"); // class="list__item completed"
   });
 
   //! ლისტში ჩავსვით ზემოთ შექმნილი თეგები
