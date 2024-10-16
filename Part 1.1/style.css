@@ -1,0 +1,38 @@
+:root {
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(360, 0%, 100%);
+  --color-gray-700: hsl(0, 0%, 20%);
+  --color-gray-800: hsl(0, 0%, 12%);
+  --color-gray-900: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-gray-900);
+}
+
+.container {
+}
+.container__header {
+}
+.profile__picture {
+}
+.container__info {
+}
+.name {
+}
+.location {
+}
+.position {
+}
+.container__body {
+}
+.lists {
+}
+.list__item {
+}
