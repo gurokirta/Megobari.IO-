@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.input__container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#add {
+  padding: 5px 10px;
+  border: none;
+  background-color: #f1356d;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#input {
+  padding: 5px;
+  border: 1px solid #f1356d;
+  border-radius: 10px;
+}
+
+#input:focus {
+  outline: none;
+}
+
+.list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.list__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #f1356d;
+  border-radius: 10px;
+  width: 300px;
+}
+.item__text {
+  font-size: 1.2rem;
+}
+.done {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.edit {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #f1356d;
+}
