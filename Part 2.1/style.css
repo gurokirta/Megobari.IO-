@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 240px;
+  margin: 20px auto;
+}
+
+/* calculator Display */
+.display {
+  width: 100%;
+  height: 100px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/* calculator buttons */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  gap: 20px;
+  padding: 20px;
+}
+
+button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.equalBtn {
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 10px 10px 10px;
+}
